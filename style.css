@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  header{
+  image-orientation:url('practice12.jpg');
+    background-color: #9b16ee;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+  }
+  
+  nav {
+    float: left;
+    width: 30%;
+    height: 400px; 
+    background: rgb(235, 151, 245);
+    padding: 10px;
+  }
+  
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  div {
+    float: left;
+    padding:0px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 400px; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size:20px;
+
+  }
+  
+  
+  
+  section::after {
+    content: "";
+    display: table;
+    clear: both;
+  
+  }
+  .container {
+  background-image: url(image/afternoon.jpg);
+    background-position: cover;
+    position: relative;
+    text-align: center;
+    color: black;
+    text-transform: capitalize;
+  }
+
+  footer {
+    background-color: rgb(238, 114, 114);
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  
+  @media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+  }
